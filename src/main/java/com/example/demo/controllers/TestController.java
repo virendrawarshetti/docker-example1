@@ -10,5 +10,10 @@ public class TestController {
 	public String test() {
 		return "Test success!";
 	}
+	
+	@GetMapping("/mytest")
+	public String myTest() {
+		return "My Another Test";
+	}
 
 }
